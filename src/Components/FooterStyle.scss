@@ -1,0 +1,14 @@
+footer{
+  background-color: hsl(233, 26%, 24%);
+}
+.footer{
+display: flex;
+justify-content: space-between;
+}
+.footer .f-logo img{
+  width: 20%;
+}
+.foot-item{
+  display: flex;
+  justify-content: space-between;
+}

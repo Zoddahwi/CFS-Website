@@ -1,0 +1,94 @@
+.services{
+  background-color:  hsl(220, 16%, 96%);
+  padding: 2rem 0;
+  width: 100%;
+  justify-content: center;
+}
+.intro{
+  padding: 1rem;
+  margin-left: 4rem ;
+}
+.intro h1{
+  font-weight: 500;
+  font-size: 2.8em;
+  color: hsl(233, 26%, 24%);
+}
+.intro p{
+  width: 50%;
+  font-size: 26px;
+  font-weight: 400;
+  color: hsl(233, 8%, 62%);
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 5rem ;
+  border-bottom: 1px solid hsl(136, 65%, 51%);
+  padding-bottom: 3rem;
+  gap: 2rem;
+  width: 90%;
+}
+.container .col-1,.container .col-2,.container .col-3,.container .col-4{
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px ;
+  // height: 45vh;
+  padding: 0 30px;
+  transition: 1.8s;
+}
+.container .col-1:hover,.container .col-2:hover,.container .col-3:hover,.container .col-4:hover{
+  background-color: rgba(241, 235, 226, 0.917);
+}
+.container .col-1 img{
+//  width: 35%;
+ margin-left: 3.5rem ;
+ margin-top: -2rem;
+}
+.container .col-2 img{
+  // width: 35%;
+  margin-left: 3.5rem ;
+  margin-top: -2rem;
+ }
+ .container .col-3 img{
+  // width: 35%;
+  margin-left: 3.5rem ;
+  margin-top: -2rem;
+ }
+ .container .col-4 img{
+  // width: 35%;
+  margin-left: 3.5rem ;
+  margin-top: -2rem;
+ }
+.container h2{
+  text-align: center;
+  font-weight: 500;
+  font-size: 27px;
+}
+.container p{
+  color: hsl(233, 8%, 62%);
+}
+
+@media screen and (max-width: 960px){
+  .services{
+    height: auto;
+    width: 100%;
+  }
+  .container{
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
+    
+  }
+  
+}
+@media screen and (max-width: 560px){
+  .services{
+    height: auto;
+    width: 100%;
+  }
+  .container{
+    grid-template-columns: 1fr;
+    width: 60%;
+    margin: 0 auto;
+    
+  }
+  
+}
