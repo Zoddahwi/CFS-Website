@@ -22,8 +22,9 @@ const Footer = () => {
             <FaYoutube size={25}  style={{color:'#ffffff'}} className='icons'/>
           </div>
         </div>
+        <div className="foots">
         <div className="foot">
-          <Link>About Us</Link>
+          <Link className='about2'>AboutUs</Link>
           <Link>Contact</Link>
           <Link>Blogs</Link>
         </div>
@@ -31,6 +32,7 @@ const Footer = () => {
          <Link>Careers</Link>
          <Link>Support</Link>
          <Link>Privacy Policy</Link>
+        </div>
         </div>
       </div>
       <div className="foot-invite">

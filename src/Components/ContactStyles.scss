@@ -1,0 +1,77 @@
+.contact{
+  padding-bottom: 3rem;
+}
+.title{
+  text-align: center;
+}
+.p{
+  text-align: center;
+}
+.contacts{
+ display: flex;
+ align-items: center;
+ margin: 0 10rem;
+ justify-content: center;
+}
+.form{
+  box-shadow: 1px 1px 4px  rgba(0, 0, 0,0.1);
+  // margin: 0 auto;
+  height: 75vh;
+  width: 50%;
+  padding: 0 4rem;
+}
+.bg_image{
+  background-image: url(../Assets/HeroSection.png);
+  height: 75vh;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  color: rgb(255, 248, 248);
+}
+.bg_image h1{
+  padding: 4rem 0 1rem 1.5rem;
+  font-size: 3.5em;
+  font-weight: 700;
+}
+.bg_image p{
+  width: 70%;
+  font-size: 18px;
+  padding: 0 0 0 1.2rem;
+}
+.bg_image .btn{
+  margin-left:  9rem;
+}
+.form .us{
+  display: flex;
+  gap: 2rem;
+}
+form label{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+form input{
+  font-size: 15px;
+  width: 75%;
+  padding: 10px;
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+textarea{
+  width: 370px;
+  height: 120px;
+  padding: 15px;
+  resize: none;
+  overflow-y: scroll;
+  font-size: 15px;
+}
+.btn2{
+  text-align: center;
+}
+textarea:focus{
+  border-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0);
+}
+input:focus{
+  border-color: black;
+}

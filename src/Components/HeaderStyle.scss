@@ -3,6 +3,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1rem;
 }
 nav{
   display: flex;
@@ -28,7 +29,7 @@ nav .nav-menu{
 nav .nav-menu li{
   list-style-type: none;
 }
-nav .nav-menu li a{
+nav .nav-menu li .a{
   text-decoration: none;
   color: hsl(233, 26%, 24%);;
   font-size: 1.1em;
