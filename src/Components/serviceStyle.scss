@@ -36,32 +36,37 @@
   transition: 1.8s;
 }
 .container .col-1:hover,.container .col-2:hover,.container .col-3:hover,.container .col-4:hover{
-  background-color: rgba(241, 235, 226, 0.917);
+  background-color: rgba(241, 235, 226, 0.5);
 }
 .container .col-1 img{
 //  width: 35%;
- margin-left: 3.5rem ;
- margin-top: -2rem;
+//  margin-left: 3.5rem ;
+//  margin-top: -2rem;
+    margin: 0 auto;
 }
 .container .col-2 img{
   // width: 35%;
-  margin-left: 3.5rem ;
-  margin-top: -2rem;
+  // margin-left: 3.5rem ;
+  // margin-top: -2rem;
+     margin: 0 auto;
  }
  .container .col-3 img{
   // width: 35%;
-  margin-left: 3.5rem ;
-  margin-top: -2rem;
+  // margin-left: 3.5rem ;
+  // margin-top: -2rem;
+     margin: 0 auto;
  }
  .container .col-4 img{
   // width: 35%;
-  margin-left: 3.5rem ;
-  margin-top: -2rem;
+  // margin-left: 3.5rem ;
+  // margin-top: -2rem;
+     margin: 0 auto;
  }
 .container h2{
   text-align: center;
   font-weight: 500;
   font-size: 27px;
+  padding: 1rem 0;
 }
 .container p{
   color: hsl(233, 8%, 62%);

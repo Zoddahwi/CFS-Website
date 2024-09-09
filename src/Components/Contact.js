@@ -5,7 +5,7 @@ import '../Components/ContactStyles.scss'
 const Contact = () => {
   return (
    <div className='contact'>
-    <h1 className='title'>Contact Us</h1>
+    <h1 className='title' style={{fontSize: "2.5em", fontWeight: "500"}}>Contact Us</h1>
        <p className='p'>Please get in touch with us for any questions</p>
     <div className="contacts">
       <div className="bg_image">

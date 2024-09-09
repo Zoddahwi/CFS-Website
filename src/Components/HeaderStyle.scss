@@ -34,6 +34,10 @@ nav .nav-menu li .a{
   color: hsl(233, 26%, 24%);;
   font-size: 1.1em;
 }
+nav .nav-menu li .a:hover{
+  color: #1d8805;
+}
+
 .hamburger {
   display: none;
   position: absolute;

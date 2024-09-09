@@ -3,9 +3,13 @@
 }
 .title{
   text-align: center;
+  font-weight: 900;
+  padding: 1rem 0;
+  font-size: 20px;
 }
 .p{
   text-align: center;
+  padding: 1rem 0;
 }
 .contacts{
  display: flex;
@@ -16,16 +20,16 @@
 .form{
   box-shadow: 1px 1px 4px  rgba(0, 0, 0,0.1);
   // margin: 0 auto;
-  height: 75vh;
-  width: 50%;
+  height: 70vh;
+  width: 59%;
   padding: 0 4rem;
 }
 .bg_image{
   background-image: url(../Assets/HeroSection.png);
-  height: 75vh;
+  height: 70vh;
   background-position: center;
   background-size: cover;
-  width: auto;
+  width: 50%;
   color: rgb(255, 248, 248);
 }
 .bg_image h1{
@@ -62,16 +66,10 @@ textarea{
   height: 120px;
   padding: 15px;
   resize: none;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   overflow-y: scroll;
   font-size: 15px;
 }
 .btn2{
   text-align: center;
-}
-textarea:focus{
-  border-color: #000000;
-  box-shadow: 0 0 5px rgba(0, 0, 0);
-}
-input:focus{
-  border-color: black;
 }
