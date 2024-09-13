@@ -23,7 +23,7 @@ const Header = () => {
             <li className='nav-item'><Link to='/About' className='a'>About</Link></li>
             <li className='nav-item'><Link to='/ContactUs' className='a'>Contact</Link></li>
             <li className='nav-item'><Link to='/' className='a'>Blogs</Link></li>
-            <li className='nav-item'><Link to='/' className='a'>Careers</Link></li>
+            <li className='nav-item'><Link to='/Career' className='a'>Careers</Link></li>
           </ul>
           </div>
           <div className="button">

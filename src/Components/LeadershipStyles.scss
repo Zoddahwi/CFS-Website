@@ -9,25 +9,27 @@
 .container3{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
-  gap: 2rem;
+  gap: 1rem;
 }
 .container3 .leader1{
   box-shadow: 5px 5px 15px 7px hsl(220, 16%, 96%);
   border-radius: 10px;
   justify-content: center;
-  padding: 2rem;
- text-align: center;
+  padding: 1rem;
+  text-align: center;
+
 }
 .container3 .leader1 p{
   text-align: justify;
  // color: hsl(233, 8%, 62%);
 }
 .container3 .leader1 img{
-  width: 100%;
-  height: 39vh;
+  width: 70%;
+  height: 24vh;
   border-radius: 10px;
+  margin: 0 auto;
 }
 
 
