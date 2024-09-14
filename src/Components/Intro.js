@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import AboutImage from '../Assets/chance4.jpeg'
 import '../Components/IntroStyles.scss'
+import CFS1 from '../Assets/CFS_bg1.png'
 
 const Intro = () => {
   return (
@@ -17,7 +17,7 @@ const Intro = () => {
           </div>
 
           <div className="image">
-            <img src={AboutImage} alt="about" />
+            <img src={CFS1} alt="about" />
           </div>
         </div>
       </section>
