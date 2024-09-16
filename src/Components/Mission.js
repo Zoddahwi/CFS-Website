@@ -3,7 +3,8 @@ import './Mission.scss'
 
 const Mission = () => {
   return (
-    <div className='missions'>
+    <div className='mission1'>
+      <div className="missions">
       <h2><b>About Us</b></h2>
       <div className="what-we-do">
         <h1>What We Do</h1>
@@ -60,6 +61,7 @@ const Mission = () => {
         <p>
         To achieve the objectives outlined above, the foundation will join efforts with individuals, organizations and institutions to provide financial, human and material support for helping prevent and mitigate trauma, depression in targeted people, and to re-integrate them in society.
         </p>
+      </div>
       </div>
     </div>
   )
