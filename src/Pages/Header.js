@@ -11,12 +11,12 @@ const Header = () => {
   const handleClick = () => setClick(!click)
 
   return (
-    <div>
+  
       <header>
         <nav>
-          <div className="logo1">
-            <img src={Logo} alt="" className='logo' />
-          </div>
+    
+            <img src={Logo} alt="" className='logo1' />
+        
           <div>
           <ul className={click ? "nav-menu active" : 'nav-menu'}>
             <li className='nav-item'><Link to='/' className='a'>Home</Link></li>
@@ -37,7 +37,7 @@ const Header = () => {
          {click ? (<FaTimes size={30} style={{ color: '#000000' }} />) : (<FaBars size={30} style={{ color: '#000000' }} />)}
         </div>
       </header>
-    </div>
+    
   )
 }
 

@@ -15,11 +15,18 @@ nav{
 .logo{
   width: 70%;
 }
-.logo1{
-  // background-color: #1d8805;
-  width: 18%;
-  height: 8vh;
+
+// .logo1{
+//   // background-color: #1d8805;
+//   width: 6%;
+//   height: 8vh;
+// }
+
+.logo1 {
+  height: 109px; /* Adjust this value to increase the size */
+  width: auto;  /* This keeps the aspect ratio */
 }
+
 nav .nav-menu{
   display: flex;
   align-items: center;

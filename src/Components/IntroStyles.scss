@@ -1,81 +1,126 @@
-section{
-  width: 100%;
+section {
+  width: 80%;
   justify-content: center;
   align-items: center;
   display: flex;
-  padding: 2.5rem 0;
+  padding: 0.5rem 0; /* Corrected the padding value */
+  position: relative;
+  min-height: 400px; /* Added to increase the height (adjust as needed) */
 }
 
-section .main-container{
+// section {
+//   padding: 120px 0;
+//   position: relative;
+// }
+// @media (max-width: 991.98px) {
+//   section {
+//     padding: 60px 0;
+//   }
+// }
+
+section .main-container {
   width: 90%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
 }
-.text{
+.text {
   width: 90%;
 }
-.text h1{
+.text h1 {
   font-size: 3em;
   text-transform: uppercase;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 100;
 }
-.text p{
+.text p {
   color: hsl(233, 8%, 62%);
 }
-button{
+button {
   padding: 0.6rem 1.7rem;
   border-radius: 20px;
   color: white;
   font-weight: 500;
   font-size: 1.2rem;
   border: none;
-  background-image: linear-gradient(to right, #62cd13,  #1d8805);
+  background-image: linear-gradient(to right, #62cd13, #1d8805);
   margin-top: 2rem;
 }
- button:hover{
+button:hover {
   opacity: 0.8;
   cursor: pointer;
 }
-.image{
-  width: 100%;
+.image {
+  width: 155%;
 }
-.image img{
-  width: 100%;
-  height: 50vh;
+.image img {
+  width: 155%;
+  height: auto;
 }
 
-@media screen and (max-width:960px) {
-  section {
-      height: auto;
-      width: 100%;
-  }
-
-  section .main-container {
-      grid-template-columns: 1fr;
-  }
-
-
- 
-}
-@media screen and (max-width:560){
+@media screen and (max-width: 960px) {
   section {
     height: auto;
     width: 100%;
-}
+  }
 
-section .main-container {
+  section .main-container {
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 560) {
+  section {
+    height: auto;
+    width: 100%;
+  }
+
+  section .main-container {
+    grid-template-columns: 1fr;
+  }
+
+  .text h1 {
+    font-size: 2em;
+    width: 100%;
+  }
+  .text p {
+    font-size: 16px;
+    background-color: #62cd13;
+  }
 }
 
-.text h1{
-  font-size: 2em;
+.animated-image {
   width: 100%;
+  height: auto;
+  transition: opacity 1s ease-in-out; // Smooth fade transition
+}
 
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  .text {
+    flex: 1;
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+  }
+
+  .image {
+    flex: 1;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      opacity: 1;
+    }
+  }
 }
-.text p{
-  font-size: 16px;
-  background-color: #62cd13;
-}
-}
+
+

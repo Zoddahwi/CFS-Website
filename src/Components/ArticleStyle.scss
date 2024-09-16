@@ -2,9 +2,10 @@
   padding: 2rem 0;
 }
 .article h1{
-  font-size: 3em;
   margin-left: 5rem;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 2.8em;
+  color: hsl(233, 26%, 24%);
 }
 .container2{
   display: grid;
@@ -12,25 +13,31 @@
   width: 90%;
   margin: 0 5rem;
   gap: 2rem;
+  margin: 77px auto;
 }
 .container2 .div1{
   padding: 1.5rem;
-  box-shadow: 5px 5px 15px 7px hsl(220, 16%, 96%);
+  box-shadow: 5px 5px 15px 7px hsl(99.69deg 86.35% 43.1% / 22%);
   border-radius: 10px;
 }
 .container2 .div2{
   padding: 1.5rem;
-  box-shadow: 5px 5px 15px 7px hsl(220, 16%, 96%);
+  box-shadow: 5px 5px 15px 7px hsl(99.69deg 86.35% 43.1% / 22%);
   border-radius: 10px;
 }
 .container2 .div3{
   padding: 1.5rem;
-  box-shadow: 5px 5px 15px 7px hsl(220, 16%, 96%);
+  box-shadow: 5px 5px 15px 7px hsl(99.69deg 86.35% 43.1% / 22%);
   border-radius: 10px;
 }
 .container2 .div4{
   padding: 1.5rem;
-  box-shadow: 5px 5px 15px 7px hsl(220, 16%, 96%);
+  box-shadow: 5px 5px 15px 7px hsl(99.69deg 86.35% 43.1% / 22%);
+  border-radius: 10px;
+}
+.container2 .div5{
+  padding: 1.5rem;
+  box-shadow: 5px 5px 15px 7px hsl(99.69deg 86.35% 43.1% / 22%);
   border-radius: 10px;
 }
 .container2 img{
@@ -60,3 +67,36 @@
   }
   
 }
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  button {
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    transition: background-color 0.2s ease;
+
+    &.active {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    &:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+  }
+}
+
+// .card {
+//   transition: transform 0.5s ease-in-out;
+// }
+
+// .card:hover {
+//   transform: scale(1.05);
+// }
