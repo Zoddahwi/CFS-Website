@@ -1,9 +1,10 @@
 .missions{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   line-height: 2rem;
   background-color: hsl(0, 1%, 97%,0.9);
   padding: 2rem;
+ 
 }
 .missions h2{
   font-size: 3em;
@@ -22,5 +23,8 @@
 }
 .mission1{
   background-image: url(../Assets/p.jpg);
-  padding: 1rem;
+  background-position: center;
+  filter: blur(0px); /* Adjust the blur value as needed */
+  z-index: -1; /* Make sure it's behind the content */
+
 }
