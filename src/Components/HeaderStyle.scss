@@ -40,9 +40,28 @@ nav .nav-menu li .a{
   text-decoration: none;
   color: hsl(233, 26%, 24%);;
   font-size: 1.1em;
+  position: relative;
 }
-nav .nav-menu li .a:hover{
-  color: #1d8805;
+nav .nav-menu li .a:focus{
+  color: #020900;
+}
+ .a::after{
+  content: '';
+  height: 2px;
+  width: 100%;
+  // background-color: linear-gradient(to right, #62cd13,  #1d8805);
+  background-color: #62cd13;
+  // display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s;
+}
+.a:hover::after,
+.a:focus::after{
+  opacity: 1;
 }
 
 .hamburger {

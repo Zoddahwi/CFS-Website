@@ -4,6 +4,7 @@ import './Mission.scss'
 const Mission = () => {
   return (
     <div className='missions'>
+      <h2><b>About Us</b></h2>
       <div className="what-we-do">
         <h1>What We Do</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, assumenda? Dolores aperiam, facere harum impedit est, magnam quod, fuga voluptatum nostrum iste earum dolorum laborum neque quaerat facilis eum nihil?

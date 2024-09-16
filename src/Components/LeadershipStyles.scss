@@ -9,7 +9,7 @@
 .container3{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
   gap: 3rem;
 }
@@ -22,11 +22,17 @@
 }
 .container3 .leader1 p{
   text-align: justify;
+  font-size: 14px;
  // color: hsl(233, 8%, 62%);
+}
+.container3 .leader1 p .a1{
+  color: #58c40b;
+  font-weight: 800;
+  text-decoration: underline;
 }
 .container3 .leader1 img{
   width: 80%;
-  height: 25vh;
+  height: 23vh;
   border-radius: 10px;
   margin: 0 auto;
 }

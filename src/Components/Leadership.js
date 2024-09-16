@@ -12,34 +12,38 @@ const Leadership = () => {
       <div className="container3">
         <div className="leader1">
           <img src={Leader1} alt="" />
-          <h5>Daniel Ledi</h5>
+          <h5><b>Daniel Ledi</b></h5>
           <p>
             Having obtained a degree in Sociology and Philosophy from the University of Ghana in 2016, I returned to the University of Ghana where I obtained a degree in Law in 2019.
+            <Link className='a1'>Read More...</Link>
             {/* I have also been serving as Legal and Compliance Officer for SUNU Assurances Ghana LTD since June 2023. */}
           </p>
-          <Link><button>Read More...</button></Link>
+          {/* <Link><button>Read More...</button></Link> */} 
         </div>
 
         <div className="leader1">
           <img src={Leader2} alt="" />
-          <h5>Deaconess MRS Faustina Konadu Akomeah</h5>
+          <h5><b>Deaconess MRS Faustina Konadu Akomeah</b></h5>
           <p>
-            Holds, MA TESL-Teaching of English as a second language-University of Ghana Legon.
-            {/* She’s trained as a Marriage Counselor at the Pentecost Theological Seminary and a Counseling and Marriage therapist at Pentecost University College
+             Holds, MA TESL-Teaching of English as a second language-University of Ghana  She’s trained as a Marriage Counselor at the Pentecost Theological Seminary {/*and a Counseling and Marriage therapist at Pentecost University College
             She is a deaconess at PIWC ABLEKUMA. */}
+             <Link className='a1'>Read More...</Link>
           </p>
-          <Link><button>Read More...</button></Link>
+          {/* <Link><button>Read More...</button></Link> */}
+        
         </div>
 
         <div className="leader1">
           <img src={Leader3} alt="" />
-          <h5>Rev. Emmanuel Agyei Kwafo</h5>
+          <h5><b>Rev. Emmanuel Agyei Kwafo</b></h5>
           <p>
-          He is an ordained minister of the Church of Pentecost who is currently serving as the National Coordinator for the Home
-           {/* and Urban Missions, a specialised Ministry of the church focused on the marginalized. */}
+          He is an ordained minister of the Church of Pentecost who is currently serving as the National Coordinator for the Home 
+           and Urban Missions, a specialised Ministry of the church focused on the marginalized.
           {/* He is an adjunct lecturer at Pentecost University.He has authored 5 books and some articles.   */}
+           <Link className='a1'>Read More...</Link>
           </p>
-          <Link><button>Read More...</button></Link>
+          {/* <Link><button>Read More...</button></Link> */}
+          
         </div>
       </div>
     </div>
