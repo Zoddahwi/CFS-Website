@@ -1,8 +1,9 @@
 .testimonials{
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2.5rem;
   padding: 3rem 5rem 5rem 5rem;
+  transition: transform 0.1s ease;
 }
 .testimonial h1{
   font-size: 35px;
@@ -71,4 +72,15 @@
   padding: 1rem;
   border-radius: 30px;
  }
- 
+ .div1:hover{
+  transform:  scale(1.1); 
+ }
+ .div2:hover{
+  transform:  scale(1.1); 
+ }
+ .div3:hover{
+  transform:  scale(1.1); 
+ }
+ .div4:hover{
+  transform:  scale(1.1); 
+ }

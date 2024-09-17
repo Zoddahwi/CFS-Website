@@ -59,7 +59,6 @@ nav .nav-menu li .a:focus{
   pointer-events: none;
   transition: all 0.2s;
 }
-.a:hover::after,
 .a:focus::after{
   opacity: 1;
 }
