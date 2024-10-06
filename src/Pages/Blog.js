@@ -1,13 +1,16 @@
 import React from 'react'
 import Header from './Header'
-import Article from '../Components/Article'
 import Footer from '../Components/Footer'
+import Slider from '../Components/Slider'
+import Events from '../Components/Events'
+
 
 const Blog = () => {
   return (
     <div>
       <Header/>
-      <Article/>
+      <Slider/>
+      <Events/>
       <Footer/>
     </div>
   )
