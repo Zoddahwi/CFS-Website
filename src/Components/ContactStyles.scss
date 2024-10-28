@@ -16,13 +16,14 @@
  align-items: center;
  margin: 0 10rem;
  justify-content: center;
+
 }
 .form{
-  box-shadow: 1px 1px 4px  rgba(0, 0, 0,0.1);
-  // margin: 0 auto;
+  box-shadow: 1px 1px 4px  rgba(0, 0, 0,0.3);
+  border-radius: 10px;
   height: 70vh;
-  width: 59%;
-  padding: 0 4rem;
+  width: 50%;
+  padding-left:3rem;
 }
 .bg_image{
   background-image: url(../Assets/HeroSection.png);
@@ -48,6 +49,7 @@
 .form .us{
   display: flex;
   gap: 2rem;
+  padding-bottom: 1rem;
 }
 form label{
   font-size: 1.2rem;

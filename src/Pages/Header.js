@@ -3,7 +3,7 @@ import '../Components/HeaderStyle.scss'
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import Logo from '../Assets/Logo_cfs_new.svg'
-
+import {nav} from '../Components/navbarItems'
 
 
 const Header = () => {
@@ -22,9 +22,19 @@ const Header = () => {
             <li className='nav-item'><Link to='/'  className='a'>Home</Link></li>
             <li className='nav-item'><Link to='/About' className='a'>About</Link></li>
             <li className='nav-item'><Link to='/ContactUs' className='a'>Contact</Link></li>
-            <li className='nav-item'><Link to='/Blog' className='a'>Blogs</Link></li>
-            <li className='nav-item'><Link to='/Career' className='a'>Careers</Link></li>
+            <li className='nav-item'><Link to='/Blog' className='a'>News</Link></li>
+            {/* <li className='nav-item'><Link to='/Career' className='a'>Careers</Link></li> */}
           </ul>
+          {/* <ul className={click ? "nav-menu active" : 'nav-menu'}>
+            {nav.map((item) =>{
+              return(
+                <li key={item.id} className={item.className}>
+                  <Link to={item.path}>{item.title}</Link>
+                </li>
+              );
+            })}
+
+          </ul> */}
           </div>
           <div className="button">
           <Link to='/'><button>Donate Now</button></Link>

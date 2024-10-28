@@ -8,13 +8,7 @@ const Contact = () => {
     <h1 className='title' style={{fontSize: "2.5em", fontWeight: "500"}}>Contact Us</h1>
        <p className='p'>Please get in touch with us for any questions</p>
     <div className="contacts">
-      <div className="bg_image">
-      <h1>Chance for souls' foundation</h1>
-      <p>The foundation seeks to help individuals
-                lead fuller lives by offering them new-found strength and purpose
-            </p>
-        <Link to='/' className='btn'><button>Donate Now</button></Link>
-      </div>
+     
       <div className="form">
          <h1 className='title'>Contact Us</h1>
 
